@@ -86,7 +86,7 @@ function closeModal() {
 <template>
   <header class="center-items">
     <!-- Search component -->
-    <Search class="search-container" v-model="searchParam" @change="displayPhotos('search')" />
+    <Search class="search-container" v-model="searchParam" @input="displayPhotos('search')" />
     <h2 v-if="searchParam">
       <span class="_search">Search Results for <span class="query"> "{{ searchParam }}"</span></span>
     </h2>
