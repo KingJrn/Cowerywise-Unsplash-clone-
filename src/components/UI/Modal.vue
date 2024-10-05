@@ -44,7 +44,7 @@ const preview = computed(() => {
 </template>
 <style scoped>
 .card {
-  background-color: #fff;
+  background-color: var( --cw-white);
   color: black;
   border-radius: 8px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
@@ -110,7 +110,7 @@ const preview = computed(() => {
 @media (min-width: 768px) {
   .card {
     width: 50%;
-    height: 80%;
+    height: 90%;
     padding-bottom: 3rem;
   }
 }

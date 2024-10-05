@@ -117,10 +117,10 @@ function closeModal() {
   right: 20%;
 
   top: 0px;
-  color: rgb(255, 255, 255);
+  color: var(--cw-white);
   z-index: 1000;
   text-decoration: none;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 200;
 }
 

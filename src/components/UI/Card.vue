@@ -23,7 +23,7 @@ const props = defineProps({
   <div v-else class="card skeleton-loader skeleton ">
     <div class="card-body description">
       <h1 class=""></h1>
-      <p class="s "></p>
+      <p class=" "></p>
     </div>
   </div>
 </template>
@@ -91,9 +91,6 @@ const props = defineProps({
   object-fit: cover;
 }
 
-/* .card-content {
-  display: flex;
-} */
 .card-body {
   padding: 30px 20px;
   position: absolute;

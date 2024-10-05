@@ -1,6 +1,4 @@
 <script setup>
-import { defineModel } from 'vue'
-
 import search from '../../assets/images/search.svg';
 
 const searchInput = defineModel()
@@ -22,8 +20,8 @@ const searchInput = defineModel()
   width: 100%;
   padding-block: 12px;
   border-radius: 8px;
-  border: 1px solid white;
-  box-shadow: 0.5px 0.5px white;
+  border: 1px solid var(--cw-white);
+  box-shadow: 0.5px 0.5px var(--cw-white);
   padding-left: 60px;
   font-size: 16px;
 }
@@ -37,7 +35,7 @@ input:focus,
 input:active,
 input:focus-visible,
 input:hover {
-  border: 1px solid gray !important;
+  border: 1px solid var(--cw-dark-gray) !important;
 }
 
 .search-icon {
